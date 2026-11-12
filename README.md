@@ -21,7 +21,7 @@
 
 </div>
 
-## 📖 Visión General del Proyecto
+## Visión General del Proyecto
 
 **KROMA** es un videojuego de lógica espacial en dos dimensiones desarrollado sobre **Godot Engine 4**. El jugador opera sobre cuadrículas ortogonales discretas (de $5\times 5$ a $7\times 7$ celdas) donde las entidades activas carecen de coeficiente de fricción, proyectándose de forma continua a lo largo de los cuatro ejes cardinales hasta colisionar contra obstáculos perimetrales o estructurales.
 
@@ -32,7 +32,7 @@ El diseño del juego articula tres principios fundamentales:
 
 ---
 
-## 🎮 Reglas Mecánicas y Álgebra Cromática
+## Reglas Mecánicas y Álgebra Cromática
 
 ### 1. Inercia Discreta y Colisiones
 * Cada bloque activo se desplaza celda por celda sin pérdida de energía mediante raycasting lógico discreto.
@@ -73,7 +73,7 @@ El motor lógico (`BoardState`) evalúa matemáticamente el tablero después de 
 
 ---
 
-## ⌨️ Mapeo de Entradas y Controles
+## Mapeo de Entradas y Controles
 
 | Comando | Teclado Primario | Mapeo Alternativo / UI | Función Técnica |
 | :--- | :---: | :---: | :--- |
@@ -84,7 +84,7 @@ El motor lógico (`BoardState`) evalúa matemáticamente el tablero después de 
 
 ---
 
-## 🏆 Condición de Reto y Evaluación por Estrellas (Solver BFS)
+## Condición de Reto y Evaluación por Estrellas (Solver BFS)
 
 El juego integra un verificador formal algorítmico basado en **Búsqueda en Anchura (BFS)** en `LevelSolver`. Al cargar cualquier sector, el solver determina de forma determinista la cantidad mínima absoluta de pasos necesarios para resolverlo (**Par Óptimo**).
 
@@ -96,7 +96,7 @@ Durante el gameplay, el HUD proyecta en tiempo real la eficiencia del jugador (`
 
 ---
 
-## 🧩 Curva de Niveles y Modo Infinito Procedural
+## Curva de Niveles y Modo Infinito Procedural
 
 1. **Nivel 01 — Deslizar y Encajar ($5 \times 5$):** Introducción heurística a la inercia sin fricción, muros fijos y receptores.
 2. **Nivel 02 — Síntesis Cromática ($5 \times 5$):** Introducción a la interacción física entre primarios para generar el espectro secundario requerido por la meta.
@@ -106,7 +106,7 @@ Durante el gameplay, el HUD proyecta en tiempo real la eficiencia del jugador (`
 
 ---
 
-## 🏗️ Especificación Técnica y Arquitectura
+## Especificación Técnica y Arquitectura
 
 ```mermaid
 flowchart TD
@@ -133,7 +133,7 @@ flowchart TD
 
 ---
 
-## 📁 Estructura del Repositorio
+## Estructura del Repositorio
 
 ```
 kroma-puzzle/
@@ -164,7 +164,7 @@ kroma-puzzle/
 
 ---
 
-## 🚀 Instalación y Ejecución
+## Instalación y Ejecución
 
 ### Requisitos Previos
 * **Godot Engine 4.x** (Versión Standard recomendada).
@@ -194,7 +194,7 @@ godot --headless --path . --script res://scripts/tests/test_solver.gd
 
 ---
 
-## 👥 Créditos del Estudio
+## Créditos del Estudio
 
 Desarrollado por **Kroma Dev Studio**:
 
@@ -218,6 +218,6 @@ Desarrollado por **Kroma Dev Studio**:
 
 ---
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto se distribuye bajo los términos de la Licencia MIT. Consulta el archivo `LICENSE` para más información.
