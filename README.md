@@ -126,7 +126,7 @@ flowchart TD
     end
 ```
 
-* **Desacoplamiento Estricto:** `BoardState` no hereda de `Node` ni conoce el árbol de escenas de Godot. Toda la simulación corre sobre memoria lógica pura, asegurando determinismo absoluto ($f(\text{estado}, \text{input}) = \text{nuevo\_estado}$).
+* **Desacoplamiento Estricto:** `BoardState` no hereda de `Node` ni conoce el árbol de escenas de Godot. Toda la simulación corre sobre memoria lógica pura, asegurando determinismo absoluto (`f(estado, input) → nuevo_estado`).
 * **Controlador General (`gameplay.gd`):** Escena unificada desacoplada que gestiona indistintamente sectores serializados en JSON o tableros generados algorítmicamente.
 * **Paisaje Sonoro Paramétrico:** Autoload `AudioManager.gd` que modula pitch y atenuación de baja latencia ante eventos cinemáticos (`slide`, `bump`, `snap`, `void`, `undo`, `victory`).
 * **Respuesta Háptica Visual:** Animaciones procedurales de deformación elástica (*squash & stretch*) al deslizarse y micro-impactos (*micro-bump*) al colisionar contra muros.
