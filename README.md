@@ -10,12 +10,12 @@
 
 **Experiencia minimalista de resolución de puzles basada en inercia discreta, síntesis cromática y mutación topológica.**
 
-[Características](#-visión-general-del-proyecto) •
-[Reglas del Juego](#-reglas-mecánicas-y-álgebra-cromática) •
-[Arquitectura Técnica](#-especificación-técnica-y-arquitectura) •
-[Estructura del Proyecto](#-estructura-del-repositorio) •
-[Despliegue y Ejecución](#-instalación-y-ejecución) •
-[Créditos](#-créditos-del-estudio)
+[Características](#visión-general-del-proyecto) •
+[Reglas del Juego](#reglas-mecánicas-y-álgebra-cromática) •
+[Arquitectura Técnica](#especificación-técnica-y-arquitectura) •
+[Estructura del Proyecto](#estructura-del-repositorio) •
+[Despliegue y Ejecución](#instalación-y-ejecución) •
+[Créditos](#créditos-del-estudio)
 
 ---
 
