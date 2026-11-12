@@ -196,23 +196,23 @@ godot --headless --path . --script res://scripts/tests/test_solver.gd
 
 ## Créditos del Estudio
 
-Desarrollado por **Kroma Dev Studio**:
+Desarrollado por:
 
-* **Toledo (Líder Técnico & Arquitectura Central):**
+* **Toledo (bytoledo):**
   * Arquitectura general del sistema y controlador desacoplado de partida ([`gameplay.gd`](scenes/gameplay.gd)).
   * Detección matemática de derrota por pérdida de piezas, incompatibilidad cromática y *deadlocks* en [`BoardState.gd`](scripts/board/board_state.gd).
   * Diseño del motor de generación procedural para cuadrículas infinitas ([`level_generator.gd`](scripts/level_generator.gd)).
   * Implementación del gestor de audio reactivo ([`AudioManager.gd`](scripts/audio_manager.gd)) y efectos hápticos de colisión (*squash & stretch* / *micro-bump*).
   * Sistema de cuantificación de reto: Par Óptimo BFS y evaluación por estrellas.
   * Consolidación de builds, resolución de conflictos Git y mantenimiento de versiones.
-* **Christian:**
+* **Christian (Cvelazquez3):**
   * Implementación base del cargador y validador de datos JSON ([`LevelLoader.gd`](scripts/levels/level_loader.gd)).
   * Abstracción lógica inicial del estado del tablero y desarrollo del verificador algorítmico BFS ([`level_solver.gd`](scripts/board/level_solver.gd)).
-* **Carlos:**
+* **Carlos (Carcamp016):**
   * Arquitectura del subsistema de entradas y amortiguación de comandos.
   * Pipeline de historial de snapshots para reversión temporal (`history_stack`).
   * Maquetación estructural de interfaces HUD y secuenciación de niveles.
-* **Ian:**
+* **Ian (imartinez31):**
   * Diseño y especificación del sistema de glifos geométricos de accesibilidad universal ([`glyph.gd`](scripts/view/glyph.gd)).
   * Modelado de la interacción cinemática de abismos estructurales (`voids`).
 
